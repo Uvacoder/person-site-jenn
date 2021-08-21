@@ -91,7 +91,7 @@ function WorkPage(props) {
         <div className={styles.body}>
             <div className={styles.top} >
                 <p styles={fontStyles.lion}> 
-                    <a style={{color: colors.black, textDecoration: "underline", pointerEvents: "all"}} target="_blank"  href={pdf}>  
+                    <a style={{color: colors.black, textDecoration: "underline", pointerEvents: "all"}} target="_blank" rel="noopener" href={pdf}>  
                         View my resume in paper form:   📄 
                     </a>
                 </p>
