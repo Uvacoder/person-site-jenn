@@ -1,8 +1,7 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import NavigationBar from '../NavigationBar';
-import { Link } from 'react-router-dom';
 import { css } from 'emotion';
-import { buildPageSpacing, spacing, fontStyles, colors } from '../../styles';
+import { spacing, fontStyles, colors } from '../../styles';
 import Footer from "../Footer";
 import Project from './Project';
 import bloom from './images/bloom.png';
