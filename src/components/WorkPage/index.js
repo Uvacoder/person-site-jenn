@@ -92,11 +92,11 @@ function WorkPage(props) {
             <div className={styles.top} >
                 <p styles={fontStyles.lion}> 
                     <a style={{color: colors.black, textDecoration: "underline", pointerEvents: "all"}} target="_blank" rel="noopener" href={pdf}>  
-                        View my resume in paper form:   📄 
+                        View my resume in paper form:  
                     </a>
                 </p>
                 <p styles={fontStyles.lion}>  Or scroll down </p>
-                <p> ↓ </p>
+                <p>  </p>
             </div>
             <div className={styles.row}>
                 <p className={styles.header}> <span className={styles.spanblue}> Work Experience </span></p>
