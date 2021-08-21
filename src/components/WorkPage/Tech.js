@@ -1,18 +1,10 @@
-import React, {useRef} from "react"
-import { NavLink } from 'react-router-dom';
-import { buildPageSpacing, spacing, fontStyles, colors } from '../../styles';
+import React from "react"
+import { spacing, colors } from '../../styles';
 import { css } from 'emotion';
-import useDimensions from "react-cool-dimensions";
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 
 function TechStack(props) {
-
-    function getIconLink() {
-        return 
-    }
 
     const styles = {
         pill : css`
