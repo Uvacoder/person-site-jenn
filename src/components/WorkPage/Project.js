@@ -1,8 +1,6 @@
-import React, { useRef } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
 import { css } from 'emotion';
-import { buildPageSpacing, spacing, fontStyles, colors } from '../../styles';
-import useDimensions from "react-cool-dimensions";
+import {  spacing, colors } from '../../styles';
 import TechStack from "./Tech";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -89,7 +87,7 @@ const description = props.description.map(texts => <li> {texts} </li>);
             </Row>
 
             {props.link ? 
-              <a style={{color: colors.redorange, bottom: "0px"}} className={styles.link} activeClassName={styles.activeLink} href={props.link}  target="_blank" > Link to this project ↗ </a>
+              <a style={{color: colors.redorange, bottom: "0px"}} className={styles.link} activeClassName={styles.activeLink} href={props.link}  target="_blank" rel="noopener" > Link to this project ↗ </a>
               : <div> </div>
             }
             
